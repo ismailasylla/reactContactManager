@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-// import Contact from './components/Contact';
-
 const Context = React.createContext();
 const reducer = (state, action) => {
   switch (action.type) {
