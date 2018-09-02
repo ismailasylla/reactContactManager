@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import propTypes from 'prop-types';
 import { Consumer } from '../../context';
 
 class Contact extends Component {
@@ -58,7 +58,7 @@ class Contact extends Component {
 }
 
 Contact.propTypes = {
-  contact: PropTypes.object.isRequired
+  contact: propTypes.object.isRequired
 };
 
 export default Contact;
