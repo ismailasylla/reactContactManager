@@ -17,15 +17,17 @@ const Header = props => {
                 <i className="fas fa-home" /> Home
               </Link>
             </li>
+
             <li className="nav item">
               <Link to="/contact/add" className="nav-link">
                 <i className="fas fa-plus" /> Add Contact
               </Link>
-              <li className="nav item">
-                <Link to="/about" className="nav-link">
-                  <i className="fas fa-question" /> About
-                </Link>
-              </li>
+            </li>
+
+            <li className="nav item">
+              <Link to="/about" className="nav-link">
+                <i className="fas fa-question" /> About
+              </Link>
             </li>
           </ul>
         </div>
